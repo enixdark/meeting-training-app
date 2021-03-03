@@ -1,0 +1,106 @@
+.list-btn-date{
+  padding-top: 0px;
+  margin-top: 0px;
+  height: 80px;
+  margin-left: 10px;
+  .el-carousel__container{
+    height: 80px;
+    .el-carousel__arrow--left{
+      left: 10px;
+    }
+    .el-carousel__arrow--right{
+      right: 10px;
+    }
+    .el-carousel__item{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      .choose__day{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .blockDate{
+          &.choosed{
+            background: #6979f8;
+            color: white;
+          }
+          &.not-choose{
+            background: white;
+            color: black;
+          }
+          border: rgb(211, 205, 205) solid 0.5px;
+          border-radius: 5px;
+          text-align: center;
+          justify-items: center;
+          font-size: 14px;
+          padding: 0 3px;
+          width: 20%;
+          cursor: pointer;
+          p{
+            margin-bottom: 2px;
+            margin-top: 5px;
+          }
+        }
+      }
+    }
+  }
+}
+.check__time{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+    .blockTime{
+      padding-top: 8px;
+      margin-left: 10px;
+      margin-bottom: 5px;
+      margin-top: 5px;
+      height: 25px;
+      width: 22%;
+      border: rgb(211, 205, 205) solid 0.5px;
+      border-radius: 5px;
+      text-align: center;
+      justify-items: center;
+      font-size: 14px;
+      cursor: pointer;
+      &.empty{
+        background: white;
+        color: black;
+      }
+      &.enabled{
+        background: #979797;
+        color: white;
+      }
+      &.visible{
+        background: #6979f8;
+        color: white;
+      }
+      &.notVisible{
+        background: #FF647C;
+        color: white;
+      }
+    }
+}
+.div-time-periodic{
+  margin-left: 30px;
+  display: flex;
+  p{
+    font-size: 14px;
+    width: 22%;
+    font-weight: bold;
+    color: #6979F8;
+    margin-right: 10px;
+  }
+  .el-date-editor.el-input{
+    width: 23%;
+  }
+  .date-picker{
+    width: 180px;
+    height: 40px;
+    margin-right: 20px;
+    .el-input__inner {
+      padding-right: 8px;
+    }
+  }
+}

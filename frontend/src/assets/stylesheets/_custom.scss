@@ -1,0 +1,33 @@
+body{
+  font-family: vMeeting;
+  margin: 0;
+}
+
+.el-container{
+  margin: auto;
+  width: 1024px;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: block !important;
+}
+.el-button{
+  font-family: vMeeting;
+}
+i{
+  span{
+    font-family: vMeeting;
+  }
+}
+.dialog-background{
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  padding-top: 70px;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);;
+  z-index: 2000;
+  transition: opacity 0.2s ease;
+}

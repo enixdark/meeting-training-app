@@ -1,0 +1,72 @@
+.sign-in{
+  background: url(../../assets/images/background.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: fixed;
+  background-position: center center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  .sign-in-card{
+    border-radius: 5px;
+    width: 360px;
+    height: 350px;
+    text-align: center;
+    h1{
+      font-size: 36px;
+      line-height: 49px;
+      color: #000000;
+      margin-block-start: 0em;
+      margin-block-end: 0em;
+      margin-top: 18px;
+    }
+    h6{
+      font-size: 14px;
+      line-height: 19px;
+      color: #979797;
+      margin-block-start: 0em;
+      margin-block-end: 0em;
+      margin-bottom: 95px;
+    }
+    h5{
+      font-size: 14px;
+      line-height: 19px;
+      color: #000000;
+      margin-block-start: 0em;
+      margin-block-end: 0em;
+      margin-bottom: 25px;
+    }
+    .btn-sign-in{
+      border-radius: 6px;
+      background:#FF647C;
+      color: white;
+      width: 230px;
+      height: 48px;
+      margin-bottom: 55px;
+      span{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        font-family: vMeeting;
+        font-weight: bold;
+        i{
+          margin-right: 5px;
+          color: #FFFFFF;
+        }
+        p{
+          font-size: 14px;
+          line-height: 22px;
+          color: #FBFBFB;
+        }
+      }
+    }
+  }
+}

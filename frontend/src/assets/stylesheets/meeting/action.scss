@@ -1,0 +1,64 @@
+.participation {
+  padding: 0;
+  position: absolute;
+  line-height: 17px;
+  height: auto;
+  font-size: 12px;
+  margin-top: -15px;
+  margin-left: 450px;
+  z-index: 1000;
+  &.small{
+    width: 150px;
+  }
+  &.big{
+    margin-left: 380px;
+    width: 220px;
+  }
+  .card-body{
+    display: block;
+    align-items: center;
+    margin: -10px;
+  }
+  i{
+    cursor: pointer;
+    &:hover{
+      color: #6979F8;
+    }
+    &:first-child{
+      margin-bottom: 7px;
+    }
+    &:last-child{
+      margin-top: 7px;
+    }
+  }
+  .select-codirator-new{
+    width: 100%;
+    .el-input{
+      font-size: 12px;
+      .el-input__inner{
+        padding:0 5px;
+        height: 25px;
+      }
+      .el-input__suffix{
+        display: none;
+      }
+    }
+    margin-bottom: 5px;
+  }
+  .btn-change-cordirator{
+    display: flex;
+    margin-left: 50%;
+    .el-button{
+      color: white;
+      background: #6979F8;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 22px;
+      font-size: 12px;
+      width: 100%;
+    }
+  }
+}

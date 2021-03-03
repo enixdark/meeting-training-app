@@ -1,0 +1,138 @@
+.meeting{
+  width: 100%;
+  padding-left: 8px;
+  padding-right: 8px;
+  position: relative;
+  p{
+    font-size: 14px;
+    line-height: 18px;
+    color: #979797;
+    text-align: left;
+    margin-block-start: 0em;
+  }
+  .card-meeting{
+    margin-bottom: 10px;
+    .div-meeting{
+      margin: -10px;
+      .part1-meeting{
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .time-meeting{
+          border-right: 1px solid gray;
+          width: 15%;
+          display: block;
+          .time{
+            display: flex;
+            .time-text{
+              text-align: right;
+              width: 25%;
+              margin-right: 10px;
+              p{
+                color: #DADADA;
+                font-size: 13px;
+              }
+            }
+          }
+          p{
+            line-height: 13px;
+            margin-block-start: 0.2em;
+            margin-block-end: 0.2em;
+          }
+        }
+        .contens-meeting{
+          width: 80%;
+          display: flex;
+          align-items: center;
+          margin-left: 15px;
+          cursor: pointer;
+          p{
+            margin-bottom: 0;
+            font-size: 18px;
+            line-height: 23px;
+            display: flex;
+            align-items: center;
+            color: #6979F8;
+          }
+        }
+        .action-menu{
+          cursor: pointer;
+          width: 5%;
+          height: 90%;
+          margin-top: -15px;
+          i{
+            margin-left: 60%;
+          }
+        }
+        .action-menu-close{
+          cursor: pointer;
+          width: 5%;
+          height: 90%;
+          margin-top: -15px;
+          i{
+            margin-left: 35%;
+          }
+        }
+      }
+      .part2-meeting{
+        display: flex;
+        margin-left: 20%;
+        div{
+          display: flex;
+          align-items: center;
+        }
+        .confirm{
+          display: flex;
+          text-align: center;
+          justify-content: center;
+          border-radius: 5px;
+          width: 25%;
+          margin-right: 20px;
+          margin: 5px 25px 5px 5px;
+          &.accepted-true{
+            background: #6979F8;
+          }
+          &.accepted-false{
+            background: #FF647C;
+          }
+          &.not-accepted{
+            background: #979797;
+          }
+          &.accepted-none{
+            background: #3D3D3D;
+          }
+          p{
+            color: white;
+          }
+        }
+        .peoples{
+          width: 25%;
+          margin-right: 5px;
+          .el-dropdown-link{
+            margin-top: 2px;
+            cursor: pointer;
+            color: #979797;
+            font-size: 10px;
+          }
+        }
+        .room{
+          width: 25%;
+          margin-right: 5px;
+        }
+        i{
+          color: #DADADA;
+          margin-right: 5px;
+          font-size: 14px;
+        }
+        p{
+          font-size: 10px;
+          line-height: 13px;
+          margin-block-start: 0.2em;
+          margin-block-end: 0em;
+          color: #979797;
+        }
+      }
+    }
+  }
+}

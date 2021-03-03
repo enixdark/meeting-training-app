@@ -1,0 +1,140 @@
+.corrdination-edit{
+  width: 630px;
+  height: 600px;
+  .edit{
+    margin: -20px -10px;
+    .el-form-item__label {
+      color: #3F3356;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .el-input__inner {
+      -webkit-appearance: none;
+      background-color: #FFFFFF;
+      background-image: none;
+      border-radius: 5px;
+      border: 1px solid #DCDFE6;
+      color: #3F3356;
+      font-size: 14px;
+      height: 40px;
+      margin-bottom: 12px;
+    }
+    .el-input__icon {
+      width: 25px;
+      -webkit-transition: all .3s;
+      transition: all .3s;
+      font-size: 20px;
+    }
+    .el-input__suffix {
+      height: 100%;
+      color: #DADADA;
+      margin-top: -8px;
+    }
+    .title{
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .room-time-people{
+      display: flex;
+      align-items: center;
+      i{
+        font-size: 16px;
+        color: #979797;
+        margin-right: 5px;
+      }
+      p{
+        margin-left: 5px;
+        font-weight: bold;
+        font-size: 14px;
+        color: #3F3356;
+        display: flex;
+        align-items: center;
+        margin-block-start: 0.6em;
+        margin-block-end: 0.5em;
+        margin-right: 20px;
+      }
+      .status-time{
+        font-weight: normal;
+        font-size: 12px;
+      }
+      .el-avatar{
+        width: 13px;
+        height: 13px;
+      }
+      .empty-time{
+        border: rgb(211, 205, 205) solid 0.5px;
+      }
+      .select{
+        padding-top: 10px;
+        i{
+          margin-top: 3px;
+          &::before{
+            content: "\e78f",
+          }
+        }
+        width: 150px;
+        .el-input__inner {
+          height: 25px;
+          padding-top: 0;
+        }
+      }
+    }
+    .list-times {
+      margin-bottom: 10px;
+    }
+    .contents-input{
+      width: 100%;
+      margin-bottom: 12px;
+      overflow: auto;
+      .el-textarea__inner {
+        display: block;
+        padding: 5px 10px;
+        line-height: 1.5;
+        font-size: 12px;
+        color: #3F3356;
+        background-color: #FFF;
+        border-radius: 5px;
+        height: 80px;
+        resize: none;
+      }
+    }
+    .btn{
+      display: flex;
+      width: 100%;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      justify-content: space-between;
+      .btn-remove{
+        display: flex;
+        align-items: center;
+        a{
+          font-size: 12px;
+          text-decoration-line: underline;
+          color: #FF647C;
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+      .confirm{
+        display: flex;
+        align-items: center;
+        a{
+          font-size: 12px;
+          text-decoration-line: underline;
+          color: #979797;;
+          font-weight: bold;
+          margin-right: 10px;
+          cursor: pointer;
+        }
+        .el-button{
+          background: #6979F8;
+          border-radius: 5px;
+          color: white;
+          width: 110px;
+          font-size: 12px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

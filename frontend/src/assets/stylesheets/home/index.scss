@@ -1,0 +1,64 @@
+.home-container{
+  width: 1110px;
+  padding-right: 0px;
+  padding-left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .rowAll{
+    .title-meeting-approval{
+      justify-content: space-between;
+      display: inline;
+      text-align: center;
+      color:  #FF647C;
+    }
+    .menu-meeting{
+      color: #979797;
+      padding-left: 8px;
+    }
+    .book-room{
+      margin-bottom: 10px;
+    }
+    .div-search{
+      margin-top: 20px;
+      display: flex;
+      padding: 0px 10px;
+      align-items: center;
+      .el-input{
+        margin-right: 5px;
+      }
+      .input-shearch{
+        width: 55%;
+      }
+      .el-button{
+        color: #FFFFFF;
+        background: #6979F8;
+        i{
+          font-size: 12px;
+        }
+      }
+      
+    }
+    .meeting{
+      margin-bottom: 28px;
+    }
+    .daily-meeting{
+      margin-bottom: 48px;
+    }
+    .button{
+      .btnSeeMore{
+        background: #6979F8;
+        border-radius: 5px;
+        width: 200px;
+        font-size: 14px;
+        color: #FFFFFF;
+        font-weight: bold;
+      }
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+      margin-bottom: 20px;
+    }
+  }
+}

@@ -1,0 +1,100 @@
+.daily-meeting{
+  margin-bottom: 30px;
+  width: 100%;
+  padding-left: 7px;
+  padding-right: 7px;
+  .weekdays-date{
+      p{
+        color: #979797;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    }
+  display: block;
+  .div-daily-meeting{
+    width: 100%;
+    .card-daily-meeting{
+      margin-bottom: 5px;
+      .div-margin{
+        margin: -10px;
+        .part1-daily-meeting{
+          display: flex;
+          .title-daily-meeting{
+            width: 95%;
+            display: flex;
+            p{
+              font-size: 18px;
+              line-height: 23px;
+              display: flex;
+              align-items: center;
+              color: #6979F8;
+              margin-block-start: 0em;
+              margin-block-end: 0.5em;
+              cursor: pointer;
+            }
+          }
+          .action-menu{
+            width: 5%;
+            height: 90%;
+            cursor: pointer;
+            i{
+              margin-left: 60%;
+            }
+          }
+          .action-menu-close{
+            width: 5%;
+            height: 90%;
+            cursor: pointer;
+            i{
+              margin-left: 35%;
+            }
+          }
+        }
+        .part2-daily-meeting{
+          display: flex;
+          margin-right: 40px;
+          width: 100%;
+          div{
+            display: flex;
+            align-items: center;
+            margin-right: 10px;
+          }
+          .room{
+            width: 20%;
+          }
+          .start-stop{
+            width: 22%;
+          }
+          i{
+          color: #DADADA;
+          margin-right: 5px;
+          font-size: 14px;
+          }
+          p{
+            font-size: 10px;
+            line-height: 13px;
+            margin-block-start: 0.2em;
+            margin-block-end: 0em;
+            color: #979797;
+          }
+          .el-dropdown-link{
+            margin-top: 2px;
+            cursor: pointer;
+            color: #979797;
+            font-size: 10px;
+          }
+          .isApproval{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            border-radius: 5px;
+            width: 25%;
+            background: #FF647C;
+            p{
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}
